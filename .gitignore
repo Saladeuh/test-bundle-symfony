@@ -1,3 +1,46 @@
+*.pdf
+*.php_*
+*.sql
+*.sql.gz
+*.csv
+*.bkp
+*.tar
+*.tgz
+*.lock
+var.*
+data/*
+*#
+*~
+tests_fonctionnels/sql/*
+web/tmp/*
+*.lock
+/app/config/parameters.yml
+/app/config/parameters.*.yml
+
+/build/
+/phpunit.xml
+/var/CACHEDIR.TAG
+!/var/cache
+/var/cache/*
+!var/cache/.gitkeep
+!/var/log
+/var/log/*
+!var/logs/.gitkeep
+!/var/sessions
+/var/sessions/*
+!var/sessions/.gitkeep
+!var/SymfonyRequirements.php
+/web/bundles/
+
+.env
+.env.local
+.idea
+adminer\.php
+reprise/reload-db
+vendor/**
+tools/phpstan/**
+tools/php-cs-fixer/**
+doc/**/*.png
 
 ###> symfony/framework-bundle ###
 /.env.local
@@ -9,17 +52,12 @@
 /vendor/
 ###< symfony/framework-bundle ###
 
-###> phpunit/phpunit ###
-/phpunit.xml
-.phpunit.result.cache
-###< phpunit/phpunit ###
-
 ###> symfony/phpunit-bridge ###
 .phpunit.result.cache
 /phpunit.xml
 ###< symfony/phpunit-bridge ###
 
-###> symfony/asset-mapper ###
-/public/assets/
-/assets/vendor/
-###< symfony/asset-mapper ###
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.php
+/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
