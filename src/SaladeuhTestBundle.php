@@ -1,5 +1,5 @@
 <?php
-namespace App;
+namespace TestBundle;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

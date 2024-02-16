@@ -59,11 +59,6 @@
             "TestBundle\\": "src/"
         }
     },
-    "autoload-dev": {
-        "psr-4": {
-            "App\\Tests\\": "tests/"
-        }
-    },
     "scripts": {
         "auto-scripts": {
             "cache:clear": "symfony-cmd",
