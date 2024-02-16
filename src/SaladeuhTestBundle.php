@@ -8,7 +8,7 @@ class SaladeuhTestBundle extends AbstractBundle
 {
     public function loadExtension(array $config, ContainerConfigurator $container, ContainerBuilder $builder): void
     {
-        $container->import('../config/services.yyaml');
+        $container->import('../config/services.yaml');
     }
     public function getPath(): string
     {
